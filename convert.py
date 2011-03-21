@@ -24,7 +24,7 @@ def convert_ppk(fname):
 
 if len(sys.argv) == 1 or sys.argv[1] == "--help":
     print "Putty private key (.ppk) -> OpenSSH private key converter"
-    print "    Usage: conver.py <file1.ppk> <file2.ppk> ... "
+    print "    Usage: convert.py <file1.ppk> <file2.ppk> ... "
     print "    Warning! .ppk required in file name - it'll be replaced with .pem"
 
 dummy = sys.argv.pop(0)
